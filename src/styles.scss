@@ -1,0 +1,23 @@
+/* pode adc estilos globais, então se criar uma classe e lançar em qualquer componente vai funcionar, não precisa exportar*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,600;1,100;1,300;1,400;1,600;1,800&display=swap');
+@import 'variaveis.scss';
+
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: $cor-fundo;
+}
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+.flex{
+    display: flex;
+
+    &-center{
+        justify-content: center;
+        align-items: center;
+    }
+}
